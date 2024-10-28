@@ -1,0 +1,13 @@
+C:\Users\garar\Desktop\WindowsFormsApp1-last\DatabaseLib\bin\Debug\DatabaseLib.dll
+C:\Users\garar\Desktop\WindowsFormsApp1-last\DatabaseLib\bin\Debug\DatabaseLib.pdb
+C:\Users\garar\Desktop\WindowsFormsApp1-last\DatabaseLib\bin\Debug\MySql.Data.dll
+C:\Users\garar\Desktop\WindowsFormsApp1-last\DatabaseLib\bin\Debug\System.Memory.dll
+C:\Users\garar\Desktop\WindowsFormsApp1-last\DatabaseLib\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\garar\Desktop\WindowsFormsApp1-last\DatabaseLib\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\garar\Desktop\WindowsFormsApp1-last\DatabaseLib\bin\Debug\System.Buffers.dll
+C:\Users\garar\Desktop\WindowsFormsApp1-last\DatabaseLib\bin\Debug\MySql.Data.xml
+C:\Users\garar\Desktop\WindowsFormsApp1-last\DatabaseLib\obj\Debug\DatabaseLib.csproj.AssemblyReference.cache
+C:\Users\garar\Desktop\WindowsFormsApp1-last\DatabaseLib\obj\Debug\DatabaseLib.csproj.CoreCompileInputs.cache
+C:\Users\garar\Desktop\WindowsFormsApp1-last\DatabaseLib\obj\Debug\Database.F6D1D632.Up2Date
+C:\Users\garar\Desktop\WindowsFormsApp1-last\DatabaseLib\obj\Debug\DatabaseLib.dll
+C:\Users\garar\Desktop\WindowsFormsApp1-last\DatabaseLib\obj\Debug\DatabaseLib.pdb

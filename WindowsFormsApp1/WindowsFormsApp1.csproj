@@ -1,0 +1,175 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{AAF9319B-F7E0-44B0-AB27-B1A46F10CE1B}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>WindowsFormsApp1</RootNamespace>
+    <AssemblyName>WindowsFormsApp1</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="MySql.Data, Version=9.0.0.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\Program Files (x86)\MySQL\MySQL Connector NET 9.0\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AddMasterForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddMasterForm.Designer.cs">
+      <DependentUpon>AddMasterForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddRepairForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddRepairForm.Designer.cs">
+      <DependentUpon>AddRepairForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AuthorizationForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AuthorizationForm.Designer.cs">
+      <DependentUpon>AuthorizationForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EditMasterForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EditMasterForm.Designer.cs">
+      <DependentUpon>EditMasterForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EditRepairForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EditRepairForm.Designer.cs">
+      <DependentUpon>EditRepairForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="editRequestForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="editRequestForm.Designer.cs">
+      <DependentUpon>editRequestForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SearchMasters.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SearchMasters.Designer.cs">
+      <DependentUpon>SearchMasters.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SearchRepairs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SearchRepairs.Designer.cs">
+      <DependentUpon>SearchRepairs.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SearchRepReq.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SearchRepReq.Designer.cs">
+      <DependentUpon>SearchRepReq.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="AddMasterForm.resx">
+      <DependentUpon>AddMasterForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddRepairForm.resx">
+      <DependentUpon>AddRepairForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AuthorizationForm.resx">
+      <DependentUpon>AuthorizationForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditMasterForm.resx">
+      <DependentUpon>EditMasterForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditRepairForm.resx">
+      <DependentUpon>EditRepairForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="editRequestForm.resx">
+      <DependentUpon>editRequestForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="SearchRepReq.resx">
+      <DependentUpon>SearchRepReq.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\update.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\user.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DatabaseLib\DatabaseLib.csproj">
+      <Project>{6ed9e474-6084-46ee-8716-870af7dbc041}</Project>
+      <Name>DatabaseLib</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
